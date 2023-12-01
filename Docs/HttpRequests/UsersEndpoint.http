@@ -1,0 +1,10 @@
+@API_HostAddress = https://localhost:5001
+@user_id = 2
+
+GET {{API_HostAddress}}/users
+
+###
+
+GET {{API_HostAddress}}/users/{{user_id}}
+
+###
